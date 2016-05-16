@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ezextended",
+  "name": "EZ Extended",
+  "description": "Useful additions to EZStorage",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sblectric"],
+  "credits": "EZStorage by zero__fall",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["ezstorage"]
+}
+]

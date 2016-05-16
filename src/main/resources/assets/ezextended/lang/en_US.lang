@@ -1,0 +1,9 @@
+# blocks
+tile.blankBox.name=Blank Box
+tile.superBox.name=Super Storage Box
+tile.ultraBox.name=Ultra Storage Box
+tile.terminal.name=Access Terminal
+tile.secureBox.name=Security Box
+
+# items
+item.key.name=EZ Key
