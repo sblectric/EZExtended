@@ -20,7 +20,8 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.0.0"
+
+version = "1.0.1"
 group= "com.sblectric.ezextended" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ezextended"
 
@@ -34,7 +35,6 @@ repositories {
 minecraft {
     version = "1.9-12.16.1.1887"
     runDir = "run"
-	
 	useDepAts = true
     
     // the mappings can be changed at any time, and must be in the following format.

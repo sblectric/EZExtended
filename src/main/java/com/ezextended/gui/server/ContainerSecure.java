@@ -42,7 +42,6 @@ public class ContainerSecure extends Container {
 		super.onCraftGuiOpened(craft);		
 		// send a sync message to the client
 		EENetwork.sendSecureSyncMsg(tileSecure.getWorld(), tileSecure.getPos(), tileSecure.getAllowedPlayers());
-		System.out.println(RefStrings.NAME);
 	}
 	
 	@Override

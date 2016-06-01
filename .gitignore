@@ -1,22 +1,37 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
+#eclipse
+/bin
+/libs
+/.settings
+/.classpath
 .project
+.project.swp
+.metadata*
 
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
+#gradle
+/build
+/.gradle
 
-# gradle
-build
-.gradle
+#occupational hazards
+/eclipse/
+/repo/
+/buildSrc
+/run
+/conf
+*.launch
+*Thumbs.db
 
-# other
-eclipse
-run
+# more blah
+/XCF
+*.lnk
+
+#Patch rejects
+*.rej
+/patches-/
+# FML changelog
+changelog.txt
+/patches_old/
+/patches_old_bak/
+*.py
+*.7z
+
+*.class
